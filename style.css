@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.gameboard {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background-color: #e4dddd;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+button {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
